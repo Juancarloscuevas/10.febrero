@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0"
+      
+</head>
+<style>
+
+#body{
+margin:50px;
+background-image: url(./fondo.jpg);
+background-size:cover;
+}
+
+#button
+{
+    background-color:black;
+    color:white;
+}
+</style>
+<body id="body">
+
+    <center><h1>FORMULARIO</h2></center> 
+
+
+    <h3>Ingresa tus nombres</h3>
+    <input type="text" ">
+
+    <h3>Ingresa tus apedillos</h3>
+    <input type="text">
+
+    <h3>Ingresa tu correo </h3>
+    <input type="email">
+
+    <h3>Ingresa tu documento</h3>
+    <input type="number">
+
+    <h3>Carga una imagen</h3>
+    <form name="subida-imagenes"
+    type="post"
+    enctype="multipart/form-data">
+    <input type="file"
+    name="imagen/form">
+    
+    <h3>Elige tu genero</h3>
+    masculino
+    <input type="radio" name="g">
+    femenino
+    <input type="Radio" name="g">
+
+    <h3>Elige tu Ciudad</h3>
+    <select name="select">
+        <option value="select">Seleccione Ciudad..</option>
+        <option value="Medellín">Medellín</option>
+        <option value="Abejorral">Abejorral</option>
+        <option value="Abriaquí">Abriaquí</option>
+        <option value="Alejandría">Alejandría</option>
+        <option value="Amagá">Amagá</option>
+        <option value="Amalfi">Amalfi</option>
+        <option value="Andes">Andes</option>
+        <option value="Angelópolis">Angelópolis</option>
+        <option value="Angostura">Angostura</option>
+        <option value="Anorí">Anorí</option>
+        <option value="Tununguá">Tununguá</option>
+        <option value="Anza">Anza</option>
+        <option value="Apartadó">Apartadó</option>
+    </select>
+
+    <h3>Ingresa tu numero de telefono</h3>
+    <input type="number">
+
+    <br><br>
+
+    <button class="button">ingresa tu informacion</button>   
+
+</body>
+</html>
